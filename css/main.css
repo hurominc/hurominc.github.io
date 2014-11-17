@@ -1,0 +1,443 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,700,300);
+@import url(http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:400,700);
+/*HUROM GREEN #77A835*/
+
+.btn-hurom{
+  width:170px;
+  background-color:#77A835;
+  color:white;
+  font-family: 'Roboto', sans-serif;
+
+}
+* {margin: 0; padding: 0; outline: 0;}
+
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight:300;
+  background-color:black;
+  text-shadow: 2px 2px rgba(0, 0, 0, 0.49);
+}
+
+footer{
+  padding-top:30px;
+  padding-bottom:30px;
+  background-color:black;
+}
+h1, h2 {
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  box-shadow : 0 2px 4px RBGA(0,0,0,0.5);
+  color:white;
+}
+
+h1 {
+  font-size: 60px;
+  line-height:67px;
+  font-weight:700;
+}
+
+
+h2 {
+  font-size: 24px;
+  font-weight:700;
+  line-height:39px;
+
+}
+
+
+h3 {
+  font-family: 'Roboto', sans-serif;
+  font-size:18px;
+  line-height:27px;
+  color:white;
+  font-weight:700;
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+  color:white;
+  font-size:18px;
+  line-height:27px;
+  font-weight: 300;
+  display: 100%;
+
+}
+
+
+
+a {
+	color: #3e3e3e;
+}
+
+
+
+.clear {
+	clear: both;
+}
+.wrap {
+	width: 100%;
+	max-width: 1600px;
+	min-width: 960px;
+	z-index: 10;
+	position: relative;
+	margin: 0 auto;
+	padding: 0;
+
+}
+
+
+
+.section {
+	width: 100%;
+
+
+	z-index: 10;
+	position: relative;
+	margin: 0 auto;
+
+	height: 700px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* SECTIONS */
+
+
+.s1 {
+
+
+
+}
+
+
+.s2 {
+
+}
+.s2 a {
+
+}
+
+.s3 {
+
+}
+
+
+.s4 {
+
+}
+
+.s4-bg{
+  background: url(https://raw.githubusercontent.com/kelvinw88/tester/master/storyBG.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height:700px;
+  opacity: 0.9;
+}
+
+.s5-bg {
+  clear:both;
+  height:100px;
+
+}
+
+.s6 {
+
+}
+
+/*HOME*/
+
+
+.sTop {
+  min-height: 130px;
+  max-height: 600px;
+}
+
+.home{
+  background: -webkit-linear-gradient(#181818, #2E2E2E); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#181818, #2E2E2E); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#181818, #2E2E2E); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#181818, #2E2E2E); /* Standard syntax */
+}
+
+.home-blender{
+  position:relative;
+  width: 70%;
+}
+
+.home-btn{
+  margin-top:35px;
+  margin-bottom: 50px;
+}
+
+
+
+/*MENU*/
+
+.subMenu {
+  height: 50px;
+  z-index: 1000;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.77);
+}
+
+.subMenu .inner {
+  padding:0;
+  font-weight: 400;
+  margin: 0 auto;
+}
+
+.subMenu a:hover {
+
+}
+
+
+.subNavBtn {
+  display: block;
+
+  position:relative;
+  float: left;
+  margin: 0px 0px 0 0;
+  text-decoration: none;
+  font-size: 14px;
+  margin-top:15px;
+  margin-left:20px;
+
+
+  /*padding: 15px 2% 0 2%;*/
+  text-align: center;
+  color:white;
+}
+
+.menu-btn{
+  background-color:#77A835;
+  border-style:solid;
+  border-color:#77A835;
+  margin-left:40px;
+  padding-left:20px;
+  padding-right:20px;
+  top:-7px;
+}
+
+.menu-btn:hover{
+  color:white !important;
+  text-decoration:none;
+}
+
+.menu-btn.active{
+  color:white !important;
+}
+
+.menu-btn:focus{
+  color:white !important;
+  text-decoration:none;
+}
+
+.homeBtn{
+  display: block;
+  height: 35px;
+  float: left;
+  margin: 0px 0px 0 0;
+  text-decoration: none;
+  text-align: center;
+  padding-top:15px;
+
+}
+
+.subNavBtn:hover{
+  color:#77A835;
+  text-decoration:none;
+}
+
+
+.active {
+  color:#77A835;
+}
+.end {
+  margin: 0;
+}
+
+.btn-menu{
+  height:30px;
+}
+
+/*HELPER*/
+
+.push{
+  margin-top:100px;
+  margin-bottom:100px;
+}
+
+.sTop .col-sm-6{
+  margin-top:100px;
+  margin-bottom:100px;
+}
+
+.video-bg-section{
+  padding:0 !important;
+  height:700px;
+}
+
+.s3-bg-section{
+  background: url(https://raw.githubusercontent.com/kelvinw88/tester/master/blendBG.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin-top:50px;
+  height:700px;
+}
+
+video#bgvid{
+  min-width:100%;
+  max-height:700px;
+  height:700px;
+  min-height:700px;
+  width:100%;
+  height:auto;
+  position:absolute;
+  background: url(the_desert-wide2.png) no-repeat center center; /* replace **image link** with your own file*/
+  background-size:cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+
+.v-set{
+  margin-top: 150px;
+}
+
+.video-pattern-bg{
+  /*background: url(https://raw.githubusercontent.com/kelvinw88/tester/master/Hurom-Backgrounds3.png)  center center fixed;*/
+  /*-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  position:absolute;
+  z-index:100;
+  width:100%;
+  height:700px;*/
+  /*z-index:100;
+  position:absolute;
+  width:2000px;
+  height:700px;
+ opacity: 0.5;*/
+}
+
+.video-pattern-bg::after{
+  opacity: 0.5;
+}
+
+.img-thumb{
+  margin-top:60px;
+  width:130px;
+}
+
+.video-push{
+  margin-top:30px;
+}
+
+.modal-header{
+  border:none;
+}
+
+.modal-header h1{
+  text-shadow: none;
+  box-shadow : none;
+  color:black;
+}
+
+.modal-header h2{
+  font-size:40px;
+  text-shadow: none;
+  box-shadow : none;
+  color:black;
+}
+
+.modal-header p{
+  color:black;
+  text-shadow: none;
+  box-shadow : none;
+}
+
+.modal.modal-wide .modal-dialog {
+  width: 90%;
+}
+
+.modal-wide .modal-body {
+  overflow-y: auto;
+}
+
+.row-centered {
+    text-align:center;
+}
+.col-centered {
+    display:inline-block;
+    float:none;
+    /* reset the text-align */
+    text-align:left;
+    /* inline-block space fix */
+    margin-right:-4px;
+}
+
+.store-logo{
+  width:135px;
+  margin:10px;
+  height:100px;
+}
+
+#myModal{
+  padding-top:30px;
+  background-color:rgba(0, 0, 0, 0.68);
+}
+
+
+
+::-webkit-media-controls {
+  display:none !important;
+}
+
+video::-webkit-media-controls {
+  display:none !important;
+}
+
+video::-webkit-media-controls-enclosure {
+  display:none !important;
+}
+
+.video-text{
+  position:absolute;
+  z-index:10000000;
+
+}
+
+.subNavBtn-xs{
+  color:white;
+
+  /* padding: 20px; */
+}
+
+.menu-xs{
+  padding-bottom:20px;
+}
+
+.menu-xs-btn{
+  margin-left:-20px;
+
+}
+
+.menu-bg{
+  background-color:rgba(0, 0, 0, 0.77);
+  padding-bottom:20px;
+}
